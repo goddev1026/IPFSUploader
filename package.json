@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "lite-server",
+    "bundle": "browserify app.js -p esmify > docs/bundle.js"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "ipfs-http-client": "^49.0.4",
+    "lite-server": "^2.6.1"
+  },
+  "devDependencies": {
+    "esmify": "^2.1.1"
+  }
+}
